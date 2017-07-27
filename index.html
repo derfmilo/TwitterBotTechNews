@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Jimnio HiTech Training Test App</title>
+    <style type="text/css">
+    body{
+     
+      height:100%;
+      width:100%;
+      overflow:scroll;
+    }
+    #console{
+      width:100%;
+      height: 300px;
+      background-color:black;
+      color:green;
+      overflow:scroll;
+    }
+    textarea{
+      width:100%;
+      background-color:black;
+      color:red;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Twitter Manager Console</h1>
+      <h5>Tweet Something</h5>
+      <textarea id="tweet"></textarea>
+      <button onclick="javascript:tweeter(document.getElementById('tweet').value);">Send Tweet</button>
+      <h5>ReTweet 200 Items(value to search below)</h5>
+      <textarea id="retweet"></textarea>
+      <button onclick="javascript:retweetLatest(document.getElementById('retweet').value);">ReTweet</button>
+      <h5>Search Tweets(value to search below)</h5>
+      <textarea id="searchtweet"></textarea>
+      <button onclick="javascript:respondtwitter(document.getElementById('searchtweet').value);">Search</button>
+      <h5>Console</h5>
+      <div id="console">
+         
+      </div>
+    </div>
+  </body>
+   <script type="text/javascript" src="bot.js"></script>
+</html>
+
