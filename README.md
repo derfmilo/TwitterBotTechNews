@@ -1,4 +1,4 @@
-# TwitterDesktopManager
+# Twitter Desktop Manager
 Bot to retweet all things hashed with anything
 
 version: 1.0.0
